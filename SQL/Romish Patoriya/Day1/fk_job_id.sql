@@ -11,3 +11,8 @@ Department_Id int
 
 ALTER TABLE JobHistory
 DROP CONSTRAINT fk_job_id
+
+/* Add a new column named location to the JobHistory */
+
+ALTER TABLE JobHistory
+ADD location varchar(10)
