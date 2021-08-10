@@ -13,6 +13,7 @@ Manager_Id int ,
 Department_Id int CONSTRAINT fkDepartmentId FOREIGN KEY REFERENCES Departments(Department_Id)
 )
 
+/* for foreign key references */
 CREATE TABLE Departments(
 Department_Id int primary key,
 Department_Name varchar(20) not null
